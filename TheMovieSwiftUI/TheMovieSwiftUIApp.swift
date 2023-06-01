@@ -2,7 +2,7 @@
 //  TheMovieSwiftUIApp.swift
 //  TheMovieSwiftUI
 //
-//  Created by Theint Su on 20/4/23.
+//  Created by kuu on 20/4/23.
 //
 
 import SwiftUI
@@ -11,7 +11,11 @@ import SwiftUI
 struct TheMovieSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //MovieDetailsView()
+            
+            HomeView()
+            
+            //GenreTabLayoutView()
         }
     }
 }
